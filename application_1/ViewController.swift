@@ -10,10 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var backgroundSwitch: UISwitch!
+    @IBOutlet weak var backgroundLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+
 
 
 }
